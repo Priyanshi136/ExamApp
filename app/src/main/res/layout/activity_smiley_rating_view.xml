@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".SmileyRatingView">
+
+
+    <dev.yuganshtyagi.smileyrating.SmileyRatingView
+        android:id="@+id/smiley_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_margin="50dp"
+        android:layout_gravity="center"
+        android:stepSize="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#D35400"
+        android:text="Submit"/>
+
+</LinearLayout>
